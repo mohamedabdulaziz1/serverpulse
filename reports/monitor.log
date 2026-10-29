@@ -1,0 +1,57 @@
+[2026-10-29 14:50:56] Starting ServerPulse
+{
+  "timestamp": "2026-10-29T14:50:57.780498+00:00",
+  "hostname": "virtualmohamed",
+  "metrics": {
+    "cpu_percent": 0.5,
+    "memory_percent": 18.3,
+    "disk_percent": 73.9
+  },
+  "endpoint": {
+    "configured": false,
+    "status": "skipped"
+  },
+  "status": "healthy",
+  "warnings": []
+}
+[2026-10-29 14:50:57] Result: HEALTHY
+[2026-10-29 14:52:24] Starting ServerPulse
+{
+  "timestamp": "2026-10-29T14:52:25.517745+00:00",
+  "hostname": "virtualmohamed",
+  "metrics": {
+    "cpu_percent": 0.0,
+    "memory_percent": 18.1,
+    "disk_percent": 73.9
+  },
+  "endpoint": {
+    "configured": true,
+    "status": "down",
+    "error": "<urlopen error [Errno 111] Connection refused>"
+  },
+  "status": "unhealthy",
+  "warnings": [
+    "HTTP endpoint is unavailable"
+  ]
+}
+[2026-10-29 14:52:25] Result: FAILED (exit code 1)
+[2026-10-29 14:55:12] Starting ServerPulse
+{
+  "timestamp": "2026-10-29T14:55:13.644337+00:00",
+  "hostname": "virtualmohamed",
+  "metrics": {
+    "cpu_percent": 0.5,
+    "memory_percent": 18.1,
+    "disk_percent": 73.9
+  },
+  "endpoint": {
+    "configured": true,
+    "status": "down",
+    "error": "<urlopen error [Errno 111] Connection refused>"
+  },
+  "status": "unhealthy",
+  "warnings": [
+    "HTTP endpoint is unavailable"
+  ]
+}
+[2026-10-29 14:55:13] Result: FAILED (exit code 1)
