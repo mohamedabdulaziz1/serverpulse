@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -u
 
-cd /app
+cd /app || exit
 
 python monitor.py || true
 
