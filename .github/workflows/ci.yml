@@ -34,7 +34,7 @@ jobs:
           python -c "import monitor; print(monitor.__file__)"
 
       - name: Run Python tests
-        run: python -m pytest -v
+        run: PYTHONPATH=. python -m pytest -v
 
 
       - name: Validate Bash syntax
